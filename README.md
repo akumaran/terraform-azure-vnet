@@ -11,7 +11,7 @@ This module is for deploying `virtual network` resource in Azure using Terraform
 | vnet_rg_name | `string` | `true` |  | name of the resource group virtual network
 | vnet_address_space | `list(string)` | `false` | `["10.0.0.0/16"]` | address space that is used the virtual network
 | vnet_dns_servers | `list(string)` | `false` | `[]` | address space that is used the virtual network
-| vnet_bgp_community | `string` | `false` | `null` | BGP community attribute in format <as-number>:<community-value>
+| vnet_bgp_community | `string` | `false` | `null` | "BGP community attribute in format <as-number>:<community-value>"
 | vnet_tags | `map(any)` | `false` | {} | virtual network Tags
 
 
